@@ -1,33 +1,39 @@
 #include <iostream>
 using namespace std;
-class student 
+
+class student
 {
-  int usn;
-  char name[30];
-  float marks;
-  public:
-  void getData()
-{
-  cout<<"Enter USN: ";
-  cin>>usn;
-  cout<<"Enter Name: ";
-  cin>>name;
-  cout<<"Enter Marks: ";
-  cin>>marks;
-}
-void displayData()
-{
-  cout<<"\nStudent Details";
-  cout<<"\nUSN: "<<usn;
-  cout<<"\nName: "<<name;
-  cout<<"\nMarks: "<<marks;
-}
+    int usn;
+    char name[30];
+    float marks;
+
+public:
+    void getData()
+    {
+        cout << "Enter USN: ";
+        cin >> usn;
+
+        cout << "Enter Name: ";
+        cin >> ws;             
+        cin.getline(name, 30);  
+
+        cout << "Enter Marks: ";
+        cin >> marks;
+    }
+
+    void displayData()
+    {
+        cout << "\nStudent Details";
+        cout << "\nUSN: " << usn;
+        cout << "\nName: " << name;
+        cout << "\nMarks: " << marks;
+    }
 };
+
 int main()
 {
-  student s;
-  s.getData();
-  s.displayData();
-  return 0;
+    student s;
+    s.getData();
+    s.displayData();
+    return 0;
 }
-  
