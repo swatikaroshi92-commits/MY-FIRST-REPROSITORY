@@ -27,7 +27,7 @@ int main()
 {
   student s;
   s.getData();
-  s.DisplayData();
+  s.displayData();
   return 0;
 }
   
