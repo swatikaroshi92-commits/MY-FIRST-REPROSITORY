@@ -1,0 +1,33 @@
+#include <iostream>
+using namespace std;
+class student 
+{
+  int usn;
+  char name[30];
+  float marks;
+  public:
+  void getData()
+{
+  cout<<"Enter USN: ";
+  cin>>usn;
+  cout<<"Enter Name: ";
+  cin>>name;
+  cout<<"Enter Marks: ";
+  cin>>marks;
+}
+void displayData()
+{
+  cout<<"\nStudent Details";
+  cout<<"\nUSN: "<<usn;
+  cout<<"\nName: "<<name;
+  cout<<"\nMarks: "<<marks;
+}
+};
+int main()
+{
+  student s;
+  s.getData();
+  s.DisplayData();
+  return 0;
+}
+  
