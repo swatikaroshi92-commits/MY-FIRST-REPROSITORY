@@ -7,4 +7,5 @@ C++
 ## PROGRAMS LIST
 Basic C++ program
 1.Largest of three numbers
+2.Sort the elements in ascending and descending order 
 
