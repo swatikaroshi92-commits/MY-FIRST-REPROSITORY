@@ -21,3 +21,9 @@ int main()
 
     return 0;
 }
+/*
+======OUTPUT=====
+Enter three numbers:10 20 15
+Largest Number is:20
+=================
+*/
