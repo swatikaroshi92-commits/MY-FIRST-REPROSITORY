@@ -45,3 +45,11 @@ int main()
 
     return 0;
 }
+
+/* OUTPUT
+--- Student Details ---
+Name: Rahul
+Roll Number: 101
+Marks in Subject 1: 85
+Marks in Subject 2: 90
+Total Marks: 175
