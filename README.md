@@ -8,4 +8,6 @@ C++
 Basic C++ program
 1.Largest of three numbers
 2.Sort the elements in ascending and descending order 
+3.Using classes to display student name,roll number,marks obtained in two subjects and total score of student 
+4.Program for bank employee to print name of the employee,account_no &balance if amount<500 display the balance after withdraw and deposit
 
