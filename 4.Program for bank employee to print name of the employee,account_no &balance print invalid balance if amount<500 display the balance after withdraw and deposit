@@ -1,0 +1,92 @@
+#include <iostream>
+using namespace std;
+
+class BankAccount
+{
+private:
+    int accountNo;
+    float balance;
+
+public:
+    void getData()
+    {
+        cout << "Enter Account Number: ";
+        cin >> accountNo;
+
+        cout << "Enter Initial Balance: ";
+        cin >> balance;
+    }
+
+    void checkBalance()
+    {
+        if (balance < 500)
+        {
+            cout << "Invalid Balance (Minimum balance should be 500)" << endl;
+        }
+        else
+        {
+            cout << "Current Balance: " << balance << endl;
+        }
+    }
+
+    void deposit()
+    {
+        float amount;
+        cout << "Enter amount to deposit: ";
+        cin >> amount;
+
+        balance = balance + amount;
+        cout << "Balance after Deposit: " << balance << endl;
+    }
+
+    void withdraw()
+    {
+        float amount;
+        cout << "Enter amount to withdraw: ";
+        cin >> amount;
+
+        if (balance - amount < 500)
+        {
+            cout << "Cannot withdraw! Minimum balance of 500 must be maintained." << endl;
+        }
+        else
+        {
+            balance = balance - amount;
+            cout << "Balance after Withdrawal: " << balance << endl;
+        }
+    }
+};
+
+int main()
+{
+    BankAccount b;
+
+    b.getData();
+    b.checkBalance();
+    b.deposit();
+    b.withdraw();
+
+    return 0;
+}
+
+OUTPUT
+1.VALID CASE
+Enter Account Number: 1234
+Enter Initial Balance: 1000
+Enter amount to deposit: 500
+Enter amount to withdraw: 300
+
+Current Balance: 1000
+Balance after Deposit: 1500
+Balance after Withdrawal: 1200
+
+
+2.INVALID CASE
+Enter Account Number: 5678
+Enter Initial Balance: 400
+Enter amount to deposit: 200
+Enter amount to withdraw: 100
+
+Invalid Balance (Minimum balance should be 500)
+Balance after Deposit: 600
+Balance after Withdrawal: 500
