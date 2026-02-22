@@ -39,3 +39,11 @@ int main()
 
     return 0;
 }
+
+
+=====OUTPUT=====
+Enter a number: 10
+Before applying unary minus operator:
+Value = 10
+After applying unary minus operator:
+Value = -10
