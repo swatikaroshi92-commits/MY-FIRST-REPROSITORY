@@ -30,3 +30,10 @@ int main()
 
     return 0;
 }
+
+
+====OUTPUT======
+Enter two integer values: 5 10
+Enter two double values: 2.5 3.7
+Sum of integers: 15
+Sum of doubles: 6.2
