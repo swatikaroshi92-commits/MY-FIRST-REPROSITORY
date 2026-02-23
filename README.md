@@ -25,3 +25,6 @@ Basic C++ program
 
 6.Operator overloading for overloading unary minus  operator
 
+
+7.Implement Multiple inheritance for performing arithmetic operation of two numbers
+
