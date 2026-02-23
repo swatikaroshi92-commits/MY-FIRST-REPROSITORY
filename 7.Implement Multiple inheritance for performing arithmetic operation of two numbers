@@ -1,0 +1,66 @@
+#include <iostream>
+using namespace std;
+
+class Input {
+protected:
+    float a, b;
+public:
+    void getData() {
+        cout << "Enter first number: ";
+        cin >> a;
+        cout << "Enter second number: ";
+        cin >> b;
+    }
+};
+
+class Addition {
+public:
+    float add(float x, float y) {
+        return x + y;
+    }
+};
+
+class Subtraction {
+public:
+    float subtract(float x, float y) {
+        return x - y;
+    }
+};
+
+// Base class 4
+class Multiplication {
+public:
+    float multiply(float x, float y) {
+        return x * y;
+    }
+};
+
+class Division {
+public:
+    float divide(float x, float y) {
+        if (y != 0)
+            return x / y;
+        else {
+            cout << "Division by zero not allowed!" << endl;
+            return 0;
+        }
+    }
+};
+
+class Arithmetic : public Input, public Addition, public Subtraction, public Multiplication, public Division {
+public:
+    void display() {
+        cout << "\nResults:" << endl;
+        cout << "Addition: " << add(a, b) << endl;
+        cout << "Subtraction: " << subtract(a, b) << endl;
+        cout << "Multiplication: " << multiply(a, b) << endl;
+        cout << "Division: " << divide(a, b) << endl;
+    }
+};
+
+int main() {
+    Arithmetic obj;
+    obj.getData();
+    obj.display();
+    return 0;
+}
