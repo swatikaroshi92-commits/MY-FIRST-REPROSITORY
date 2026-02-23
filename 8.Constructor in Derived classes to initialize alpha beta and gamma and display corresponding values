@@ -38,3 +38,12 @@ int main() {
     obj.display();
     return 0;
 }
+
+=====OUTPUT=====
+Base class constructor called
+Derived class constructor called
+
+Values are:
+Alpha = 10
+Beta  = 20
+Gamma = 30
