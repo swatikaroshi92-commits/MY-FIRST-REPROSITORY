@@ -28,3 +28,6 @@ Basic C++ program
 
 7.Implement Multiple inheritance for performing arithmetic operation of two numbers
 
+
+8.Construct in Derived classes to initialize alpha beta and gamma and dispaly corresponding values
+
