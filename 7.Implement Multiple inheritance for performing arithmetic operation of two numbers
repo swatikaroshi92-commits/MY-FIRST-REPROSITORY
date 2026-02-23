@@ -64,3 +64,13 @@ int main() {
     obj.display();
     return 0;
 }
+
+====OUTPUT=====
+Enter first number: 7
+Enter second number: 3
+
+Results:
+Addition: 10
+Subtraction: 4
+Multiplication: 21
+Division: 2.33333
