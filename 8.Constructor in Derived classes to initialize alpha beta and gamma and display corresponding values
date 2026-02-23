@@ -1,0 +1,40 @@
+#include <iostream>
+using namespace std;
+
+class Base {
+protected:
+    int alpha, beta;
+
+public:
+    // Constructor of Base class
+    Base(int a, int b) {
+        alpha = a;
+        beta = b;
+        cout << "Base class constructor called" << endl;
+    }
+};
+
+class Derived : public Base {
+private:
+    int gamma;
+
+public:
+  
+    Derived(int a, int b, int g) : Base(a, b) {
+        gamma = g;
+        cout << "Derived class constructor called" << endl;
+    }
+
+    void display() {
+        cout << "\nValues are:" << endl;
+        cout << "Alpha = " << alpha << endl;
+        cout << "Beta  = " << beta << endl;
+        cout << "Gamma = " << gamma << endl;
+    }
+};
+
+int main() {
+    Derived obj(10, 20, 30);
+    obj.display();
+    return 0;
+}
