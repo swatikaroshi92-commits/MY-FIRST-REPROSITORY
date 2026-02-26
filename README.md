@@ -35,4 +35,7 @@ Basic C++ program
 9.Create a text file check file created or not if created it will write some text into the file and then read text from the file
 
 
+10.program to write and read in from binary file using fstream
+
+
 
