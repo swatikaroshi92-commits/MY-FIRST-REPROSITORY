@@ -1,0 +1,48 @@
+#include <iostream>
+#include <fstream>
+using namespace std;
+
+int main()
+{
+    fstream file;
+    char data[100];
+
+    file.open("vtu.txt", ios::out);
+
+    if (!file)
+    {
+        cout << "File creation failed";
+        return 0;
+    }
+
+    cout << "File created successfully\n";
+
+    cout << "Enter the text to write into the file:\n";
+    cin.getline(data, 100);
+
+    file << data;
+
+    file.close();
+
+    cout << "Data written successfully\n";
+
+    file.open("vtu.txt", ios::in);
+
+    if (!file)
+    {
+        cout << "File opening failed";
+        return 0;
+    }
+
+    cout << "\nReading data from file:\n";
+
+    while (!file.eof())
+    {
+        file.getline(data, 100);
+        cout << data << endl;
+    }
+
+    file.close();
+
+    return 0;
+}
