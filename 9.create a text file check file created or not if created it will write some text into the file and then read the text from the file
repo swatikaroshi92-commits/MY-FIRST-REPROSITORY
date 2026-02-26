@@ -46,3 +46,14 @@ int main()
 
     return 0;
 }
+
+===OUTPUT====
+File created successfully
+Enter the text to write into the file:
+Hello VTU Students
+
+Data written successfully
+
+Reading data from file:
+Hello VTU Students
+
