@@ -52,3 +52,10 @@ int main() {
 
     return 0;
 }
+
+====OUTPUT=====
+Enter student details:
+Enter Roll Number: 101
+Enter Name: Swati
+Enter Marks: 89.5
+
