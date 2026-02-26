@@ -31,3 +31,8 @@ Basic C++ program
 
 8.Construct in Derived classes to initialize alpha beta and gamma and dispaly corresponding values
 
+
+9.Create a text file check file created or not if created it will write some text into the file and then read text from the file
+
+
+
