@@ -35,3 +35,16 @@ int main()
 
     return 0;
 }
+
+====OUTPUT=====
+NORMAL EXECUTION:
+Enter numerator: 10
+Enter denominator: 2
+Result = 5
+
+EXCEPITON CASE:
+Enter numerator: 10
+Enter denominator: 0
+Exception caught: Division by zero is not allowed!
+Program continues after exception handling.
+Program continues after exception handling.
