@@ -38,4 +38,10 @@ Basic C++ program
 10.program to write and read in from binary file using fstream
 
 
+11.Develop a function which throws a division by zero exception and catch it in catch box
+
+
+12.handles array out of bounds exception using c++
+
+
 
