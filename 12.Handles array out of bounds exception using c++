@@ -31,3 +31,16 @@ int main()
 
     return 0;
 }
+
+==output====
+valid index:
+Array elements are: 10 20 30 40 50
+Enter the index to access element: 2
+Element at index 2 is: 30
+Program continues after exception handling.
+
+Invalid index:
+Array elements are: 10 20 30 40 50
+Enter the index to access element: 7
+Exception caught: Array index out of bounds!
+Program continues after exception handling.
