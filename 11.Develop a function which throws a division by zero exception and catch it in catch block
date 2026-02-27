@@ -1,0 +1,37 @@
+#include <iostream>
+using namespace std;
+
+double divide(int numerator, int denominator)
+{
+    if (denominator == 0)
+    {
+        throw denominator;   // Throwing exception
+    }
+    return (double)numerator / denominator;
+}
+
+int main()
+{
+    int num1, num2;
+    double result;
+
+    cout << "Enter numerator: ";
+    cin >> num1;
+
+    cout << "Enter denominator: ";
+    cin >> num2;
+
+    try
+    {
+        result = divide(num1, num2);
+        cout << "Result = " << result << endl;
+    }
+    catch (int e)
+    {
+        cout << "Exception caught: Division by zero is not allowed!" << endl;
+    }
+
+    cout << "Program continues after exception handling." << endl;
+
+    return 0;
+}
