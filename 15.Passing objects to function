@@ -5,7 +5,7 @@ public:
 int age=20;
 char ch='A';
 void display(A &a){
-cout<<"Age="a.age<<endl;
+cout<<"Age="<<a.age<<endl;
 cout<<"character="<<a.ch<<endl;
 }
 };
