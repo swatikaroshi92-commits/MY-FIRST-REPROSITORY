@@ -10,3 +10,9 @@ dispalyNum(8);
 dispalyNum(666);
 return 0;
 }
+
+==OUTPUT===
+5
+8
+666
+
