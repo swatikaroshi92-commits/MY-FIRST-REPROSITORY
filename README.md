@@ -43,9 +43,14 @@ Basic C++ program
 
 12.handles array out of bounds exception using c++
 
+
 13.Inline function
 
+
 14.Parameterized constructors
+
+
+15.Passing objects to function
 
 
 
