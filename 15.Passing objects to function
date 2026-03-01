@@ -1,6 +1,6 @@
 #include<iostream>
 using namespace std;
-Class A{
+class A{
 public:
 int age=20;
 char ch='A';
@@ -15,3 +15,7 @@ A obj;
 obj.display(obj);
 return 0;
   }
+
+===OUTPUT====
+Age=20
+character=A
