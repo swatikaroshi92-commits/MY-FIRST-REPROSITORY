@@ -18,3 +18,8 @@ A obj(3,8);
 obj.display();
 return 0;
 }
+
+==OUTPUT===
+num1=3
+num2=8
+
