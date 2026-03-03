@@ -1,0 +1,16 @@
+#include<iostream>
+using namespace std;
+class base{
+};
+class derived : public base{
+};
+int main()
+{
+base *ptr;
+derived obj;
+ptr=&obj;
+return 0;
+}
+
+
+(No output)
