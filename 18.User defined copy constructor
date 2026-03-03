@@ -1,0 +1,20 @@
+#include<iostream>
+using namespace std;
+class example{
+public:int a;
+example(int x)
+{
+a=x;
+}
+example(example &obj)
+{
+a=obj.a;
+}
+};
+int main()
+{ 
+example e1(36);
+example e2(e1);
+cout<<e2.a;
+return 0;
+}
