@@ -53,4 +53,14 @@ Basic C++ program
 15.Passing objects to function
 
 
+16.Pointers to derived types
+
+
+17.pointers to class members
+
+
+18.user defined copy constructor
+
+
+
 
