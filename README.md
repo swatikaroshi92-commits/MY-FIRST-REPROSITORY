@@ -62,5 +62,11 @@ Basic C++ program
 18.user defined copy constructor
 
 
+19.Base class access control
+
+
+20.defining the constructor outside the class
+
+
 
 
