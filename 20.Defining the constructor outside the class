@@ -27,3 +27,10 @@ student s;
 s.display();
 return 0;
 }
+
+===OUTPUT====
+Enter the RollNo: 101
+Enter the Name: John
+Enter the Fee: 25000
+
+101    John    25000
