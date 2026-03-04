@@ -28,3 +28,8 @@ cout<<"protected="<<object1.getprot()<<endl;
 cout<<"public="<<object1.pub<<endl;
 return 0;
 }
+
+==OUTPUT====
+private = 1
+protected = 2
+public = 3
