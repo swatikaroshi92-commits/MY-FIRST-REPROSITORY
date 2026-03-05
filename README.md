@@ -68,5 +68,11 @@ Basic C++ program
 20.defining the constructor outside the class
 
 
+21.Virtual functions are hierarchical
+
+
+22.Early binding
+
+
 
 
