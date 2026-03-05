@@ -36,3 +36,8 @@ int main()
 
     return 0;
 }
+
+===OUTPUT=====
+This is base's vfunc()
+This is derived1's vfunc()
+This is base's vfunc()
