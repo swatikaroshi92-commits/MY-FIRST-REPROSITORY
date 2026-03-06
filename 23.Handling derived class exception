@@ -18,3 +18,6 @@ cout<<"Caught Base exception"<<endl;
 }
 return 0;
 }
+
+====OUTPUT====
+Caught derived exception
