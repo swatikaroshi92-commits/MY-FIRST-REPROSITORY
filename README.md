@@ -74,5 +74,14 @@ Basic C++ program
 22.Early binding
 
 
+23.Handling derived class exception
+
+
+24.Rethrowing an exception
+
+
+22.Early binding
+
+
 
 
