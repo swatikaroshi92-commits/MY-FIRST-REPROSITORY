@@ -24,3 +24,9 @@ int main()
   cout<<"End";
   return 0;
   }
+
+====OUTPUT====
+Start
+Caught char * inside Xhandler
+caught char * inside main
+End
