@@ -1,0 +1,28 @@
+#include <iostream>
+#include <thread>
+
+using namespace std;
+
+void printNumbers() {
+    for (int i = 1; i <= 5; i++) {
+        cout << "Thread 1: " << i << endl;
+    }
+}
+
+void printLetters() {
+    for (char c = 'A'; c <= 'E'; c++) {
+        cout << "Thread 2: " << c << endl;
+    }
+}
+
+int main() {
+    thread t1(printNumbers);
+    thread t2(printLetters);
+
+    t1.join();
+    t2.join();
+
+    cout << "Threads finished execution." << endl;
+
+    return 0;
+}
