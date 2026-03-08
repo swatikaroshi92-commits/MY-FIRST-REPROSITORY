@@ -26,3 +26,17 @@ int main() {
 
     return 0;
 }
+
+
+====OUTPUT=====
+Thread 1: 1
+Thread 1: 2
+Thread 1: 3
+Thread 1: 4
+Thread 1: 5
+Thread 2: A
+Thread 2: B
+Thread 2: C
+Thread 2: D
+Thread 2: E
+Threads finished execution
