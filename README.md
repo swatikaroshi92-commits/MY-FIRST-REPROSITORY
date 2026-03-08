@@ -86,5 +86,11 @@ Basic C++ program
 26.Template program
 
 
+27.Multithreading
+
+
+28.Lambda Functions
+
+
 
 
